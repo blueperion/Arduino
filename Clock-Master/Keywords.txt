@@ -1,0 +1,11 @@
+Clock(int pin) // declare the pin that will be used in the Write functions
+
+Clock.
+
+SetTime(int Hours, int Minutes, int Seconds) // input the current time once
+SetDate(int Day, int Month, int Year) // input the current date once
+GetTime()
+GetDate()
+WriteTime(int Hour, int Minutes, int Seconds) // this will write the wanted pin HIGH and after a declared delayTime LOW again
+WriteDay(2, 10); // Writes the wanted pin HIGH 2 times a Day (Write(*2*, 10)) and LOW after the declared Time in seconds (Write(2, *10*))
+Write(10, 10); // Writes the wanted pin HIGH 10 times a month (Write(*10*, 10)) and LOW after the declared Time in seconds (Write(10, *10*))

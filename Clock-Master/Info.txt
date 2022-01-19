@@ -1,0 +1,14 @@
+if you want to use this for your own Arduino project just
+save the parent folder called "Clock-Master" as a zip folder
+and then add a zip library folder in your Arduino IDE
+
+Help:
+Open the Arduino IDE
+Go to sketches
+click on "Add .zip library"
+navigate to the Clock-Master zip folder and add it
+
+(I wrote this Code years ago so it is not the best.
+It may be updated in the future)
+
+this can be used for a small watering system
