@@ -3,7 +3,7 @@
 Clock newClock(9); // create a Clock
 
 void setup() {
-  newClock.SetDate(27, 4, 2021); // Befor getting the date you first have to 
+  newClock.SetDate(27, 4, 2021); // Before getting the date you first have to 
   //set the date (Day, Month, Year)
 }
 

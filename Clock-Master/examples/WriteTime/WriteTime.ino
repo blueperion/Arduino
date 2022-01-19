@@ -10,5 +10,6 @@ void setup() {
 void loop() {
   newClock.GetTime(); // Get the time that was declared before
   newClock.GetDate(); // Get the date that was declared before
-  newClock.WriteTime(0, 0, 5); // Writes the declared pin HIGH at 00:00 and 5 seconds and LOW after the declared delayTime
+  newClock.WriteTime(0, 0, 5); // Activates the declared pin at 00:00 (12AM) and 5 seconds
+  //because it uses european digital time and deactivates it after the declared delayTime
 }

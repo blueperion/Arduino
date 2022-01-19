@@ -1,7 +1,6 @@
 Clock(int pin) // declare the pin that will be used in the Write functions
 
 Clock.
-
 SetTime(int Hours, int Minutes, int Seconds) // input the current time once
 SetDate(int Day, int Month, int Year) // input the current date once
 GetTime()

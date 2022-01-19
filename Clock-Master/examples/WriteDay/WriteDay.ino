@@ -1,6 +1,6 @@
 #include <Clock.h>
 
-Clock newClock(9); // create a Clock and connect declare the pin to 9
+Clock newClock(9); // Create a Clock and set connect the pin to 9
 
 void setup() {
   newClock.SetTime(13, 59, 50); // Set the current time (Hours, Minutes, Seconds)
@@ -10,6 +10,6 @@ void setup() {
 void loop() {
   newClock.GetTime(); // Get the time that was declared before
   newClock.GetDate(); // Get the date that was declared before
-  newClock.WriteDay(2, 10); // Writes the declared pin HIGH 2 times a Day (Write(*2*, 10))
-  //and LOW after the declared Time in seconds (Write(2, *10*))
+  newClock.WriteDay(2, 10); // Activates the before declared pin 2 times a Day (Write(*2*, 10))
+  //and deactivates it after the declared Time in seconds (Write(2, *10*))
 }
