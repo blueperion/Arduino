@@ -11,4 +11,4 @@ navigate to the Clock-Master zip folder and add it
 (I wrote this Code years ago so it is not the best.
 It may be updated in the future)
 
-this can be used for a small watering system
+this can be used for a small watering systems

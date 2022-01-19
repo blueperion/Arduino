@@ -14,7 +14,8 @@ Clock::Clock(int pin)
   int LeapYear;
   double HowOften;
 
-  bool TMonth;
+  bool TMonth; // stands for 30 day month or 31 day month
+  // if it's true that means it is a 31 day month
 
   int delayTime;
   pinMode(pin, OUTPUT);
