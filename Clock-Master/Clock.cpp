@@ -203,11 +203,13 @@ void Clock::Write(int Often, int DelayLong)
     if (Often > 31)
     {
       Serial.println(String(Often) + " is higher than 30 but the maximum is 30");
+      Often = 31;
     }
 
-    if (Often < 0)
+    if (Often < 1)
     {
-      Serial.println(String(Often) + " is lower than 0 but the minimum is 0");
+      Serial.println(String(Often) + " is lower than 1 but the minimum is 1");
+      Often = 1;
     }
 
     for (int j = 0; j < 32; j += _HowOften)
