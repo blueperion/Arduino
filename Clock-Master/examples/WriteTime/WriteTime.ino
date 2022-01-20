@@ -1,6 +1,6 @@
 #include <Clock.h>
 
-Clock newClock(9); // create a Clock and connect declare the pin to 9
+Clock newClock(9); // create a Clock and set the connected pin to 9
 
 void setup() {
   newClock.SetTime(14, 0, 0); // Set the current time (Hours, Minutes, Seconds)
