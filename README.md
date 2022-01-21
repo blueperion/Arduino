@@ -1,6 +1,6 @@
 # Arduino
 This Repository is for all open source Arduino projects by me [@blueperion](https://github.com/blueperion)
-I hope they will be helpful to you!
+I hope they will help or inspire you!
 
 ### Updates
 I don't plan on updating the Clock-Master library,
